@@ -1,0 +1,43 @@
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#timer {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+#timer{
+    background-color:aquamarine ;
+}
+
+#controls button {
+    margin-right: 10px;
+    
+        background-color: #4CAF50; /* Set background color */
+        border: none; /* Remove border */
+        color: white; /* Set text color */
+        padding: 10px 20px; /* Set padding */
+        text-align: center; /* Align text center */
+        text-decoration: none; /* Remove underline */
+        display: inline-block; /* Set display to inline-block */
+        font-size: 16px; /* Set font size */
+        cursor: pointer; /* Add cursor pointer on hover */
+        border-radius: 4px; /* Add border radius */
+      
+      
+      .button:hover {
+        background-color: #45a049; /* Change background color on hover */
+      }
+      
+      .button:active {
+        background-color: #3e8e41; /* Change background color on button press */
+      }
+      
+}
+#stopBtn{
+    background-color: red;
+}
+h1{
+    background: orange;
+}
